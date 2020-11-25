@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style>
         body{
-            background: url("https://github.com/preethampython101/PermutationsProjectImages/blob/main/qmark2.jpg?raw=true");
+            background: url("https://github.com/preethampython101/PermutationsProject/blob/main/qmark2.jpg?raw=true");
             background-repeat: no-repeat;
             background-size: 100%;
             font-family: "Courier New", Courier, monospace;
