@@ -131,8 +131,6 @@
         }
     </style>
 	<body>
-    <!--<a href="Homeschool_register.php" class="login-button login">Log-Out</a>-->
-
     <div class="welcome">
         Welcome to the Word Permutation Calculator!
     </div>
