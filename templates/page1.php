@@ -26,7 +26,6 @@
                 0px 0px 0px rgba(255, 255, 255, 0);
             position: absolute;
             clear: both;
-            /* margin-top: 12%; */
         }
 
         .nav-bar:hover {
