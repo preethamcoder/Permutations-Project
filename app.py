@@ -1,6 +1,5 @@
 import math
 from flask import Flask, render_template, request, request, redirect, send_file, send_from_directory, safe_join, abort
-
 app = Flask(__name__)
 def permutationsofword(a):
     uniquelet = set(a.lower())
@@ -10,15 +9,12 @@ def permutationsofword(a):
         perm /= math.factorial(x)
     perms = int(perm)
     return str(perms)
-
 @app.route("/")
 def hello():
     return render_template('homepage.php')
-
 @app.route("/?")
 def render():
     return render_template('homepage.php')
-
 @app.route("/page1", methods=['GET', 'POST'])
 def hi():
     if request.method == 'POST':
