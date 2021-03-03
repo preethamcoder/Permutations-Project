@@ -11,7 +11,6 @@
             font-family: "Courier New", Courier, monospace;
             background-color: #cccccc;
         }
-
         .nav-bar {
             width: fit-content;
             height: fit-content;
@@ -26,9 +25,7 @@
                 0px 0px 0px rgba(255, 255, 255, 0);
             position: absolute;
             clear: both;
-            /* margin-top: 12%; */
         }
-
         .nav-bar:hover {
             background: #c78cfa;
             border-radius: 25px;
@@ -38,17 +35,14 @@
                 inset 0px 1px 0px rgba(255, 255, 255, 0.5);
             color: white;
         }
-
         .about {
             margin-left:65%;
             margin-top: 2%;
         }
-
         .course-select {
             margin-left: 62%;
             margin-top: 0%;
         }
-        
         input[type="text"] {
             background: #ffffff;
             padding: 1.2% 2%;
@@ -62,11 +56,9 @@
             margin-left: 10%;
             position: absolute;
         }
-
         input[type=text]:focus {
             outline: none;
         }
-
         input[type=submit] {
             display: inline-block;
             padding: 10px 20px;
@@ -91,7 +83,6 @@
             border: none;
             font-weight: strong;
         }
-
         input[type=submit]:hover {
             display: inline-block;
             padding: 10px 20px;
@@ -116,12 +107,10 @@
             border: none;
             font-weight: strong;
         }
-
         ::placeholder {
             font-size: 17px;
             font-family: Tahoma, Geneva, sans-serif;
         }
-
         .welcome {
             font-size: 70px;
 			color: blue;
@@ -139,9 +128,6 @@
 		<br><br><br><br><input type="submit" value="Calculate">
     
     </form>
-
-
 </body>
-
 </head>
 </html>
