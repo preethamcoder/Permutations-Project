@@ -21,4 +21,3 @@ def hi():
         a = request.form['theword']
         fsend = permutationsofword(a)
     return render_template('page1.php', oword = a, permu = fsend)
-        
