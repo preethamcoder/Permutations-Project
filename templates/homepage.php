@@ -126,8 +126,7 @@
     <form action="page1" METHOD="POST" id="signup">
         <input type="text" name="theword" value="" id="name" placeholder="Word"><br><br><br>
 		<br><br><br><br><input type="submit" value="Calculate">
-    
-    </form>
+</form>
 </body>
 </head>
 </html>
