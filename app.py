@@ -11,13 +11,13 @@ def permutationsofword(a):
     return str(perms)
 @app.route("/")
 def hello():
-    return render_template('homepage.php')
+    return render_template('homepage.html')
 @app.route("/?")
 def render():
-    return render_template('homepage.php')
+    return render_template('homepage.html')
 @app.route("/page1", methods=['GET', 'POST'])
 def hi():
     if request.method == 'POST':
         a = request.form['theword']
         fsend = permutationsofword(a)
-    return render_template('page1.php', oword = a, permu = fsend)
+    return render_template('page1.html', oword = a, permu = fsend)
